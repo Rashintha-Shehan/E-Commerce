@@ -67,7 +67,10 @@ const NavBar = () => {
                         <img className='h-4 rotate-180' src={assets.dropdown_icon} alt="Back Icon" />
                         <p>Back</p>
                     </div>
-                    {/* should change as tut */}
+                <NavLink onClick={()=>setVisible(false)} className={'py-2 pl-6 border'} to='/'>HOME</NavLink>
+                <NavLink onClick={()=>setVisible(false)} className={'py-2 pl-6 border'} to='/Collection'>COLLECTION</NavLink>
+                <NavLink onClick={()=>setVisible(false)}className={'py-2 pl-6 border'} to='/About'>ABOUT</NavLink>
+                <NavLink onClick={()=>setVisible(false)} className={'py-2 pl-6 border'} to='/Contact'>CONTACT</NavLink>
                 </div>
             </div>
         </div>
