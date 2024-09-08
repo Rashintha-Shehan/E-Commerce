@@ -1,16 +1,16 @@
-import p_img1 from './p_img1.png'
-import p_img2_1 from './p_img2_1.png'
-import p_img2_2 from './p_img2_2.png'
-import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
+import p_img1 from './p_img1.jpg'
+import p_img2_1 from './p_img2.jpg'
+import p_img2_2 from './p_img2_2.jpg'
+import p_img2_3 from './p_img2_3.jpg'
+import p_img2_4 from './p_img2_4.jpg'
+import p_img3 from './p_img3.jpg'
+import p_img4 from './p_img4.jpg'
+import p_img5 from './p_img5.jpg'
+import p_img6 from './p_img6.jpg'
+import p_img7 from './p_img7.jpg'
+import p_img8 from './p_img8.jpg'
+import p_img9 from './p_img9.jpg'
+import p_img10 from './p_img10.jpg'
 import p_img11 from './p_img11.png'
 import p_img12 from './p_img12.png'
 import p_img13 from './p_img13.png'
@@ -98,120 +98,120 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
+        name: "Bird of Paradise",
+        description: "Impressive and tropical with large, glossy leaves that naturally split over time.",
+        price: 199,
         image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
+        category: "Indoor",
+        subCategory: "indoorPlant",
         sizes: ["S", "M", "L"],
         date: 1716634345448,
         bestseller: true
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
+        name: "Bamboo Palmt",
+        description: "With dense foliage and lush fronds, the Bamboo Palm makes a statement. An air-purifying plant adaptable to low light, this palm can reach heights of up to 8 feet tall in the right conditions.",
+        price: 299,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Men",
-        subCategory: "Topwear",
+        category: "Indoor",
+        subCategory: "IndoorPlant",
         sizes: ["M", "L", "XL"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
+        name: "Peace Lily",
+        description: "The Peace Lily has been an iconic houseplant for decades thanks to its forgiving nature, vibrant glossy leaves, and symbolic white blooms. This plant’s large leaves will give any space a lush jungle feeling. The peace lily has come to symbolize prosperity, purity, peace, and sympathy, making it a perfect heartfelt gift. More likely to bloom in bright indirect light, this plant tolerates any level of indirect light, including low light.",
+        price: 69,
         image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
+        category: "Low Maintain Plant",
+        subCategory: "LowMaintain",
         sizes: ["S", "L", "XL"],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
+        name: "Red Anthurium",
+        description: "With its large, bold heart-shaped flower, the Red Anthurium symbolizes hospitality, luck, and strong relationships, bringing instant happiness and abundance to any home. It can be given as a sentimental gift or added to your own collection for a splash of color. These tropical plants will thrive year-round, in a warm bright spot. Provide extra humidity with a mister to keep the leaves looking their best.",
+        price: 49,
         image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
+        category: "High Maintain",
+        subCategory: "HighMaintain",
         sizes: ["S", "M", "XXL"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
+        name: "Bromeliad Pineapple",
+        description: "Have you ever wanted to grow your own adorable pineapple indoors? With the Bromeliad Pineapple, you can! This bromeliad sprouts a fun ornamental pineapple from a whorl of long green leaves. Sure to spark a conversation with your next dinner guests, you’ll know your pineapple fruit has reached maturity when it turns fragrant and a brighter shade of yellow. Although this variety is not grown for edible consumption, it’s still a unique gift or addition to any personal collection.",
+        price: 79,
         image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
+        category: "New Arrival",
+        subCategory: "NewArrival",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
         bestseller: true
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
+        name: "Hibiscus Tabletop",
+        description: "For the ultimate tropical vibe, look no further than the Hibiscus plant. The oversized flowers shine in fluorescent shades, blooming all summer long. Best for sunny outdoor spaces and small enough for a tabletop, you’ll feel like you’re on a vacation each time you step outside. Flower color varies between plants, including pink, orange, and yellow.",
+        price: 49,
         image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
+        category: "Pet Friendly",
+        subCategory: "PetFriendly",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
         bestseller: true
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
+        name: "Pet-Friendly Trio",
+        description: "Create a lush green space without worrying about your curious pets with the Pet-Friendly Trio. This bundle includes the non-toxic adorable Mini Money Tree, colorful Red Prayer Plant, and exotic Bromeliad Summer. This trio was hand-selected for their hands-off care and tolerance of various lighting conditions, so you can spend less time on plant maintenance and more time with your furry family members.",
+        price: 115,
         image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
+        category: "Pet Friendly",
+        subCategory: "PetFriendly",
         sizes: ["S", "L", "XL"],
         date: 1716621542448,
         bestseller: false
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
+        name: "Money Tree",
+        description: "Popular for its use in Feng Shui, the Money Tree is a pet-friendly and air-purifying plant with large star-shaped leaves and a braided trunk to give your home a tropical feel.",
+        price: 169,
         image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
+        category: "Indoor",
+        subCategory: "IndoorPlant",
         sizes: ["S", "M", "L", "XL"],
         date: 1716622345448,
         bestseller: false
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
+        name: "Fiddle Leaf Fig",
+        description: "Tall, sculptural, and dramatic. This plant will flourish in the right conditions",
+        price: 229,
         image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
+        category: "Air Cleaner",
+        subCategory: "AirCleaner",
         sizes: ["M", "L", "XL"],
         date: 1716621235448,
         bestseller: false
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Aglaonema Siam",
+        description: " A hardy and gorgeous plant, the Aglaonema Siam features light pink stems and glossy leaves mottled with reds, pinks, and greens. These stunning colors vary depending on the amount of sunlight it gets. Adaptable to a wide range of lighting conditions, it can thrive in nearly any spot within a home.",
         price: 110,
         image: [p_img10],
-        category: "Men",
-        subCategory: "Bottomwear",
+        category: "Low Maintain",
+        subCategory: "LowMaintain",
         sizes: ["S", "L", "XL"],
         date: 1716622235448,
         bestseller: false
