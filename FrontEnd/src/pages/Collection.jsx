@@ -8,13 +8,37 @@ const Collection = () => {
   const { products } = useContext(ShopContext); 
   const [showFilter, setShowFilter] = useState(false);
   const [filterProducts, setFilterProducts] = useState([]);
+  const [Category, setCategory] = useState([]);
+
+  const toggleCategory = (e) => {
+    if (Category.includes(e.target.value)) {
+      setCategory(prev => prev.filter(item => item !== e.target.value));
+    } else {
+      setCategory(prev => [...prev, e.target.value]);
+    }
+  };
+
+  const applyFilter = () => {
+    let productsCopy = products.slice();
+
+    if (Category.length > 0) {
+      productsCopy = productsCopy.filter(item => 
+        Category.includes(item.category)  
+      );
+    }
+
+    setFilterProducts(productsCopy);
+  };
 
   useEffect(() => {
-    console.log("Products from context:", products);
     if (Array.isArray(products)) {
-      setFilterProducts(products);
+      setFilterProducts(products); 
     }
   }, [products]);
+
+  useEffect(() => {
+    applyFilter(); 
+  }, [Category]);
 
   return (
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t'>
@@ -27,19 +51,19 @@ const Collection = () => {
           <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'LowMaintain'} /> Low Maintain
+              <input className='w-3' type="checkbox" value={'LowMaintain'} onChange={toggleCategory} /> Low Maintain
             </p>
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'HighMaintain'} /> High Maintain
+              <input className='w-3' type="checkbox" value={'HighMaintain'} onChange={toggleCategory} /> High Maintain
             </p>
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'AirCleaner'} /> Air Cleaner
+              <input className='w-3' type="checkbox" value={'AirCleaner'} onChange={toggleCategory} /> Air Cleaner
             </p>
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'IndoorPlant'} /> Indoor Plant
+              <input className='w-3' type="checkbox" value={'IndoorPlant'} onChange={toggleCategory} /> Indoor Plant
             </p>
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'PetFriendly'} /> Pet Friendly
+              <input className='w-3' type="checkbox" value={'PetFriendly'} onChange={toggleCategory} /> Pet Friendly
             </p>
           </div>
         </div>
