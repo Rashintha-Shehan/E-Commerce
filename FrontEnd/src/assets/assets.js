@@ -70,7 +70,7 @@ export const products = [
         name: "Bird of Paradise",
         description: "Impressive and tropical with large, glossy leaves that naturally split over time.",
         price: 199,
-        image: [p_img1],
+        image: [p_img1,p_img2_2,p_img2_3,p_img2_4],
         category: "IndoorPlant",
         subCategory: "indoorPlant",
         sizes: ["S", "M", "L"],
@@ -82,10 +82,10 @@ export const products = [
         name: "Bamboo Palmt",
         description: "With dense foliage and lush fronds, the Bamboo Palm makes a statement. An air-purifying plant adaptable to low light, this palm can reach heights of up to 8 feet tall in the right conditions.",
         price: 299,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+        image: [p_img2_1],
         category: "IndoorPlant",
         subCategory: "IndoorPlant",
-        sizes: ["M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716621345448,
         bestseller: false
     },
@@ -97,7 +97,7 @@ export const products = [
         image: [p_img3],
         category: "LowMaintain",
         subCategory: "LowMaintain",
-        sizes: ["S", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716234545448,
         bestseller: true
     },
@@ -109,7 +109,7 @@ export const products = [
         image: [p_img4],
         category: "HighMaintain",
         subCategory: "HighMaintain",
-        sizes: ["S", "M", "XXL"],
+        sizes: ["S", "M", "L"],
         date: 1716621345448,
         bestseller: false
     },
@@ -121,7 +121,7 @@ export const products = [
         image: [p_img5],
         category: "LowMaintain",
         subCategory: "LowMaintain",
-        sizes: ["M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716622345448,
         bestseller: true
     },
@@ -133,7 +133,7 @@ export const products = [
         image: [p_img6],
         category: "PetFriendly",
         subCategory: "PetFriendly",
-        sizes: ["S", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716623423448,
         bestseller: true
     },
@@ -145,7 +145,7 @@ export const products = [
         image: [p_img7],
         category: "PetFriendly",
         subCategory: "PetFriendly",
-        sizes: ["S", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716621542448,
         bestseller: true
     },
@@ -157,7 +157,7 @@ export const products = [
         image: [p_img8],
         category: "IndoorPlant",
         subCategory: "IndoorPlant",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716622345448,
         bestseller: false
     },
@@ -169,7 +169,7 @@ export const products = [
         image: [p_img9],
         category: "AirCleaner",
         subCategory: "AirCleaner",
-        sizes: ["M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716621235448,
         bestseller: false
     },
@@ -181,7 +181,7 @@ export const products = [
         image: [p_img10],
         category: "LowMaintain",
         subCategory: "LowMaintain",
-        sizes: ["S", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716622235448,
         bestseller: true
     },
@@ -205,7 +205,7 @@ export const products = [
         image: [p_img12],
         category: "AirCleaner",
         subCategory: "AirCleaner",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716624445448,
         bestseller: false
     },
@@ -217,7 +217,7 @@ export const products = [
         image: [p_img13],
         category: "HighMaintain",
         subCategory: "HighMaintain",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716625545448,
         bestseller: false
     },
@@ -229,7 +229,7 @@ export const products = [
         image: [p_img14],
         category: "LowMaintain",
         subCategory: "LowMaintain",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716626645448,
         bestseller: false
     },
@@ -241,7 +241,7 @@ export const products = [
         image: [p_img15],
         category: "IndoorPlant",
         subCategory: "IndoorPlant",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716627745448,
         bestseller: false
     },
@@ -253,7 +253,7 @@ export const products = [
         image: [p_img16],
         category: "PetFriendly",
         subCategory: "PetFriendly",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716628845448,
         bestseller: false
     },
@@ -265,7 +265,7 @@ export const products = [
         image: [p_img17],
         category: "PetFriendly",
         subCategory: "PetFriendly",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716629945448,
         bestseller: false
     },
@@ -277,7 +277,7 @@ export const products = [
         image: [p_img18],
         category: "PetFriendly",
         subCategory: "PetFriendly",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716631045448,
         bestseller: false
     },
@@ -289,7 +289,7 @@ export const products = [
         image: [p_img19],
         category: "HighMaintain",
         subCategory: "HighMaintain",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716632145448,
         bestseller: false
     },
@@ -301,7 +301,7 @@ export const products = [
         image: [p_img20],
         category: "LowMaintain",
         subCategory: "LowMaintain",
-        sizes: ["S", "M", "L", "XL"],
+        sizes: ["S", "M", "L"],
         date: 1716633245448,
         bestseller: false
     }
